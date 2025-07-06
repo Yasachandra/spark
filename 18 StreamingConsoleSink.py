@@ -42,7 +42,7 @@ if __name__ == '__main__':
                         .option("maxFilesPerTrigger", 1)
 
                         .option("multiline", "true")
-                        .json("/Users/i545672/SAPDevelop/Spark/Files/Streaming")
+                        .json("/Users/i545672/SAPDevelop/Spark/Files/Streaming/Input")
               )
 
     # Check if DataFrame is streaming or not
